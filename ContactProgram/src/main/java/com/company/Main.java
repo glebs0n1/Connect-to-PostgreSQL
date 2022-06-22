@@ -8,7 +8,7 @@ public class Main {
     public static void main(String[] args) throws SQLException, URISyntaxException, IOException {
         String jdbcURL = "jdbc:postgresql://localhost:5432/Shop";
         String username = "root";
-        String password = "root!";
+        String password = "root";
         try {
             Connection connection = DriverManager.getConnection(jdbcURL, username, password);
 
